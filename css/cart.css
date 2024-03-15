@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #123026;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    gap: 10px;
+    letter-spacing: 2px;
+    position: sticky;
+    top: 0px;
+}
+
+footer{
+    width: 100%;
+    height: 70vh;
+}
+#firstFoot{
+    width: 100%;
+    height: 80%;
+    background-color: #0c2019;
+    display: flex;
+    color: #ffffff;
+}
+#foot1,#foot2,#foot3,#foot4{
+    width: 300px;
+    height: 320px;
+    margin: 50px 50px;
+    padding: 0px 50px 50px;
+    transition: all 1s;
+}
+#footLogo{
+    width: 109.4px;
+    height: 60.2px;
+}
+#firstFoot h2{
+    font: 18px Atak,sans-serif;
+    margin: 0px 0px 20px;
+}
+#foot1 ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+#foot1 ul li{
+    list-style: none;
+    color: #ffffff;
+}
+#foot1 a i:hover{
+    transform: scale(1.2);
+}
+
+#foot2{
+    font: 14px Atak,sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#foot2 ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+#foot3{
+    font: 14px Atak,sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#foot3 ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+#foot4{
+    font: 14px Atak,sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#foot4 ul li{
+    list-style: none;
+    margin: 10px;
+}
+#secondFoot{
+    width: 100%;
+    height: 20%;
+    background-color: #0c2019;
+}
+#secondFoot ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#secondFoot ul li{
+    font: 10px Atak,sans-serif;
+    list-style: none;
+    margin: 10px;
+    color: #ffffff;
+}

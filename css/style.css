@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#pagetop{
+    width: 100%;
+    height: 30px;
+    background-color: #123026;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#info{
+    color: #ffffff;
+    font: 13px Atak,sans-serif;
+    font-weight: bold;
+}
+#head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: #ffffff;
+    top: 0px;
+    z-index: 1;
+}
+#logo{
+    width:15vw;
+}
+#sideHead{
+    display: flex;
+    gap: 30px;
+    font-size: 2vw;
+    transition: all 1s;
+}
+#sideHead a {
+    color: #123026;
+    font: 20px sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    margin:  20px;
+}
+#sideHead a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    color: #123026;
+}
+#bodyImg{
+    width: 95%;
+}
+#imageBody{
+    position: relative;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+#textimg{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    /* background-color: #ffffff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font: 1vw Atak,sans-serif;
+    font-weight: 700;
+    /* text-shadow:2px 2px 2px  #ffffff; */
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: #f3f3f3;
+    display: flex;
+}
+#home1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0px 50px;
+}
+#home1 h2{
+    font:45px Atak,sans-serif;
+    color: #123026;
+}
+#home1 p{
+    font: 19px Atak,sans-serif;
+    color: #123026BF;
+}
+#home2{
+    width: 50%;
+    height: 100%;
+}
+#home2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#value{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px;
+    overflow: hidden;
+}
+#valueIn{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#valueIn img{
+    width: 100%;
+    height: 100%;
+}
+#valueText{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    font-size: 1.7vw;
+    font-family: Atak,sans-serif;
+    background-color: #f3f3f3;
+    margin: 50px;
+}
+#valueText h2{
+    color: #123026;
+}
+#valueText p{
+    color: gray;
+}
+#valueText button{
+    width: 150px;
+    height: 45px;
+    background-color: #123026;
+    color: #ffffff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+#product{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(128, 128, 128, 0.134);
+}
+.box{
+    width: 350px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.358);
+    border: 1px solid black;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+.box div{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+.box button{
+    width: 300px;
+    height:30px;
+    border-radius: 5px;
+    font: 15px Atak,sans-serif;
+}
+
+#deal{
+    width: 100%;
+    height: 300px;
+    background-color: #123026;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+#dealIn{
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#dealIn p{
+    font: 1vw Atak,sans-serif;
+    justify-content: center;
+    color: gray;
+}
+#dealIn h2{
+    font: 22px Atak,sans-serif;
+    font-weight: 600;
+}
+#dealIn a{
+    color: #ffffff;
+}
+
+#home3{
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    margin-top: 2vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px #123026;
+    color: #123026;
+}
+#home3 #textDivh2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home3 #logosDiv{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#home3 p{
+    font-weight: bold;
+}
+
+#parentReviewDiv{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+    justify-content: space-evenly;
+    background-color: #123026;
+    color: #ffffff;
+}
+#parentReviewDiv .reviewDiv{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#parentReviewDiv .reviewDiv div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-evenly;
+}
+
+#touch{
+    width: 100%;
+    height: 300px;
+    background-color: #f3f3f3;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#touch h1{
+    color: #123026;
+    font: 40px Atak,sans-serif;
+}
+#touch p{
+    color: #123026BF;
+    font: 22px Atak,sans-serif;
+}
+#touch div{
+    display: flex;
+}
+#touch div input{
+    text-align: center;
+    width: 250px;
+    height: 40px;
+}
+#touch div button{
+    width: 200px;
+    height: 40px;
+    background-color: #123026;
+    color: #ffffff;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+#bestsell{
+    width: 100%;
+    height: 100vh;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* justify-content: center; */
+}
+#bestsell h2{
+    font-size: 25px;
+    font-weight: 800;
+    color: #123026;
+}
+#photos{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.pics{
+    width: 22%;
+    height: 100%;
+    background-color: #123026;
+}
+.pics img{
+    width: 100%;
+    height: 100%;
+}
+#down{
+    width: 100%;
+    height:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#shopbestsell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #123026;
+}
+#shopbestsell a{
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 18px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 70vh;
+}
+#firstFoot{
+    width: 100%;
+    height: 80%;
+    background-color: #123026;
+    display: flex;
+    color: #ffffff;
+}
+#foot1,#foot2,#foot3,#foot4{
+    width: 300px;
+    height: 320px;
+    margin: 50px 50px;
+    padding: 0px 50px 50px;
+    transition: all 1s;
+}
+#footLogo{
+    width: 109.4px;
+    height: 60.2px;
+}
+#firstFoot h2{
+    font: 18px Atak,sans-serif;
+    margin: 0px 0px 20px;
+}
+#foot1 ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+#foot1 ul li{
+    list-style: none;
+    color: #ffffff;
+}
+#foot1 a i:hover{
+    transform: scale(1.2);
+}
+
+#foot2{
+    font: 14px Atak,sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#foot2 ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+#foot3{
+    font: 14px Atak,sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#foot3 ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+#foot4{
+    font: 14px Atak,sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#foot4 ul li{
+    list-style: none;
+    margin: 10px;
+}
+#secondFoot{
+    width: 100%;
+    height: 20%;
+    background-color: #123026;
+}
+#secondFoot ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#secondFoot ul li{
+    font: 10px Atak,sans-serif;
+    list-style: none;
+    margin: 10px;
+    color: #ffffff;
+}
+

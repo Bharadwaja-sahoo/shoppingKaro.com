@@ -1,12 +1,12 @@
 // JavaScript for toggling between login and signup forms
 function showSignUp() {
   document.getElementById('loginForm').style.display = 'none';
-  document.getElementById('signupForm').style.display = 'block';
+  document.getElementById('signupForm').style.display = 'flex';
 }
 
 function showLogin() {
   document.getElementById('loginForm').style.display = 'block';
-  document.getElementById('signupForm').style.display = 'none';
+  document.getElementById('signupForm').style.display = 'flex';
 }
 
 // Store user data in localStorage (for demonstration purposes only)
